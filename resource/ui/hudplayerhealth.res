@@ -5,7 +5,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"HudPlayerHealth"
-		"xpos"			"c-200"		[$WIN32]
+		"xpos"			"c-160"		[$WIN32]
 		"xpos_minmode"	"-5"		[$WIN32]
 		"ypos"			"c-25"	[$WIN32]
 		"ypos_minmode"	"r88"	[$WIN32]
@@ -24,12 +24,12 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusHealthImage"
-		"xpos"			"70"
+		"xpos"			"121"
 		"xpos_minmode"	"60"
-		"ypos"			"55"
+		"ypos"			"66"
 		"zpos"			"4"
-		"wide"			"10"
-		"tall"			"10"
+		"wide"			"15"
+		"tall"			"15"
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"	
@@ -87,8 +87,26 @@
 		"labelText"		"%Health%"
 		"textAlignment"	"center"	
 		"font"			"BigPixelFont20"
-		"fgcolor"		"TanDark"
-	}								
+		"fgcolor"		"White"
+	}			
+
+	"TeamIndicator"
+	{
+		"ControlName"		"CTFImagePanel"
+		"fieldname"		"TeamIndicator
+		"xpos"			"64"
+		"ypos"			"33"
+		"wide"			"16"
+		"tall"			"16"
+		"teambg_2"		"../hud/color_panel_red"
+		"teambg_3"		"../hud/color_panel_blu"
+	
+		"arc_corner_height"		"40"
+		"arc_corner_widht"		"40"
+		"draw_corner_width"		"1"
+		"draw_corner_height"	"1"
+	}
+	
 	"PlayerStatusBleedImage"
 	{
 		"ControlName"	"ImagePanel"
